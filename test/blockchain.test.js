@@ -76,6 +76,7 @@ describe('Blockchain', () => {
                 newChain.addBlock({ data: 'one' })
                 newChain.addBlock({ data: 'two' })
                 newChain.addBlock({ data: 'three' })
+                newChain.addBlock({ data: 'four' })
             })
 
             describe('and the chain is invalid', () => {
