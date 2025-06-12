@@ -1,5 +1,5 @@
 const { GENESIS_DATA } = require("./config")
-const cryptoHash = require("./crypto-hash")
+const cryptoHash = require("../crypto-hash")
 
 
 class Block {
